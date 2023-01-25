@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.anima1-container{
+    width: 100%;
+    padding-top: 5rem;
+    height: 100vh;
+    background-color: #111;
+}
+
+.anima1-svg{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.copy {
+    fill: none;
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 15% 30%;
+    stroke-dashoffset: 5%;
+    animation: textanimation 10s linear infinite;
+}
+
+@keyframes textanimation {
+    100%{
+        stroke-dashoffset: -35%;
+    }
+}
+
+.copy1 {
+    stroke: #faf602;
+    animation-delay: -2.5s;
+}
+
+.copy2 {
+    stroke: rgb(253, 6, 6);
+    animation-delay: -3.5s;
+}
+
+.copy3 {
+    stroke: #9cebe0;
+    animation-delay: -4.5s;
+}
+
+.copy4 {
+    stroke: #f7f6c1;
+    animation-delay: -6.5s;
+}
+
+.copy5 {
+    stroke: #f7f4f3;
+    animation-delay: -8s;
+}
